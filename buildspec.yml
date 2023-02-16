@@ -2,7 +2,7 @@
 version: 0.2
 env:
   secrets-manager:
-    mongo_url: "ADI_MONGO_SECRET:mongodb_url"
+    mongo_url: "mongodb_url:ADI_MONGO_SECRET"
 phases:
   pre_build:
     commands:
